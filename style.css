@@ -50,3 +50,14 @@
     --red-700: #a8071a;
     --red-800: #820014;
   }
+
+
+
+  header {
+    background-color:#bfbfbf ;
+  }
+
+  .container-fluid{
+    background-color:#30009f;
+    color: white; 
+  }
