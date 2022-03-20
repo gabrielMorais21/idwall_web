@@ -1,9 +1,9 @@
-*{
+* {
     font-family: "Inter" !important;
     font-size: 12px;
-  }
-  
-  :host {
+}
+
+:root {
     --primary-color: #50f;
     --secondary-color: #fff;
     --success-color: #52c41a;
@@ -49,4 +49,5 @@
     --red-600: #cf1322;
     --red-700: #a8071a;
     --red-800: #820014;
-  }
+}
+
