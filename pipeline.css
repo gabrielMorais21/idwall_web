@@ -175,6 +175,18 @@
     font-weight: bold;
 }
 
+.review-table-button {
+    background-color: #F0E68C;
+    color: var(--warning-color);
+    border: 1px solid var(--warning-color);
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.show-result-table {
+    text-decoration: none;
+}
+
 @media (max-width: 1170px) {
     .pipeline-header-right-side {
 	width: 50%
@@ -184,5 +196,5 @@
 @media (max-width: 712px) {
     .informations {
 	flex-direction: column;
-    }
+    }    
 }
