@@ -1,8 +1,13 @@
 *{
     font-family: "Inter" !important;
     font-size: 12px;
+    box-sizing: border-box;
   }
   
+  body { 
+    min-height: 100vh; 
+  }
+
   :host {
     --primary-color: #50f;
     --secondary-color: #fff;
@@ -54,10 +59,64 @@
 
 
   header {
-    background-color:#bfbfbf ;
+    background-color:#e8e8e8;
+    text-align: center;
   }
 
   .container-fluid{
-    background-color:#30009f;
-    color: white; 
+    background-color:#fff;
   }
+
+  nav {
+    background-color: #50f;
+    margin-left: -10px;
+  
+  }
+
+ .nav-link {
+   height: 100px;
+   color: #fff;
+   font-size: 18px;
+   padding-top: 3rem;
+
+ }
+
+ .nav-link:hover{
+   background-color: #fff;
+   color:#50f ;
+ }
+
+  aside {
+    height: auto;
+    padding-left: 0 0 0 0 ;
+    text-align: center;
+  }
+
+  select {
+    margin-top: 10px;
+  }
+
+  h1 {
+    height: 40px;
+    display:flexbox;
+    color: #50f;
+    position: relative;
+    margin-bottom: 0;
+
+  }
+
+  a {
+    padding-left: 0;
+   
+  }
+
+.rodape {
+    background-color: #130040;
+    position: relative;
+    color: white;
+    height: 100px;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+  }
+
