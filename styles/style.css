@@ -1,4 +1,4 @@
-*{
+* {
     font-family: "Inter" !important;
     font-size: 12px;
     box-sizing: border-box;
@@ -54,7 +54,7 @@
     --red-600: #cf1322;
     --red-700: #a8071a;
     --red-800: #820014;
-  }
+  /* }
 
 
 
@@ -119,4 +119,4 @@
     display: flex;
     justify-content: center;
   }
-
+ */
