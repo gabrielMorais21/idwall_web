@@ -1,9 +1,9 @@
 * {
     font-family: "Inter" !important;
     font-size: 12px;
-}
-
-:root {
+  }
+  
+  :root {
     --primary-color: #50f;
     --secondary-color: #fff;
     --success-color: #52c41a;
