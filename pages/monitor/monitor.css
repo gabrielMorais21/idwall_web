@@ -1,0 +1,45 @@
+@import url("../../styles/style.css");
+@import url("../../styles/sidebar.css");
+
+header {
+    background-color:#e8e8e8;
+    text-align: center;
+  }
+
+  .container-fluid{
+    background-color:#fff;
+  }
+
+
+  select {
+    margin-top: 10px;
+  }
+
+  h1 {
+    height: 40px;
+    display:flexbox;
+    color: #50f;
+    position: relative;
+    margin-bottom: 0;
+
+  }
+
+  a {
+    padding-left: 0;
+   
+  }
+
+.rodape {
+
+    background-color: #130040;
+    position: relative;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .rodape p{
+      text-align: center;
+  }
+ 
